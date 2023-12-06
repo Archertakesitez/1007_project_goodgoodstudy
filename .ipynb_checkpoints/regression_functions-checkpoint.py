@@ -75,5 +75,5 @@ def plot_actual_vs_predicted(model, data, target, feature=None, title='Actual vs
     plt.title(title)
     plt.xlabel('Actual ' + target)
     plt.ylabel('Predicted ' + target)
-    plt.savefig(f'{title.replace(" ", "_")}.png')
+    plt.savefig(f'outputs/{title.replace(" ", "_")}.png')
     plt.show()

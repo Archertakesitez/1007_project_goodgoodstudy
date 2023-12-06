@@ -52,5 +52,5 @@ def plot_clusters(data, labels, title='K-Means Clustering'):
     plt.title(title)
     plt.xlabel(data.columns[0])
     plt.ylabel(data.columns[1])
-    plt.savefig(f'{title.replace(" ", "_")}.png')
+    plt.savefig(f'outputs/{title.replace(" ", "_")}.png')
     plt.show()
