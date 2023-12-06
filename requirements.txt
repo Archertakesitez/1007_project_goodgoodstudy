@@ -1,0 +1,8 @@
+geopandas
+matplotlib
+mpl_toolkits.axes_grid1
+numpy
+pandas
+seaborn
+sklearn
+statsmodels
