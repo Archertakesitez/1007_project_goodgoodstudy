@@ -40,36 +40,40 @@ def perform_multiple_ols(data, target, features):
     X = data[features]
     y = data[target].values
 
-    # Adding a constant to the model (intercept)
+    # Adding a constant to the model (intercept) and fitting the model
     X = sm.add_constant(X)
-
-    # Fitting the model
     model = sm.OLS(y, X).fit()
     return model
 
-def generate_loss_graph(model, title):
+def plot_actual_vs_predicted(model, data, target, feature=None, title='Actual vs Predicted'):
     '''
-    Generate and save a graph of the model's loss.
+    Generate and save a graph of actual vs predicted values from the regression model.
 
     Parameters:
     model: The regression model
+    data (DataFrame): The pandas DataFrame containing the data
+    target (str): The name of the target variable
+    feature (str, optional): The name of the feature variable for simple regression
     title (str): The title of the graph
 
     Returns:
     None
     '''
-    # Calculate predictions
-    predictions = model.predict()
-    
-    # Calculate loss
-    loss = mean_squared_error(model.endog, predictions)
-
-    # Plotting the loss
-    plt.figure(figsize=(10, 6))
-    plt.plot(loss, label='Loss')
+    # Actual vs. Predicted Values
+    if isinstance(feature, list) or isinstance(feature, tuple):
+            if len(feature) > 1:
+                title = 'Actual vs Predicted (MLR)'
+                c = 'blue'
+            else:
+                title = 'Actual vs Predicted (Simple OLS)'
+                c = 'violet'
+    else:
+        title = 'Actual vs Predicted (Simple OLS)'
+        c = 'violet'
+    plt.figure(figsize=(12, 6))
+    plt.scatter(data[target], model.predict(), color=c, alpha=0.4)
     plt.title(title)
-    plt.xlabel('Iterations')
-    plt.ylabel('Loss')
-    plt.legend()
-    plt.savefig(f'{title}_loss.png')
-    plt.close()
+    plt.xlabel('Actual ' + target)
+    plt.ylabel('Predicted ' + target)
+    plt.savefig(f'{title.replace(" ", "_")}.png')
+    plt.show()
