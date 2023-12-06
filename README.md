@@ -77,27 +77,15 @@ To ensure you have all the necessary packages for running the notebooks in this 
    conda create -n your_env_name python=3.9.7
    conda activate your_env_name
    
-pip install -r requirements.txt
+2. **pip install -r requirements.txt**
 
 
-## Usage
-
-Examples of how to use the project.
-
-## Contributing
-
-Short description of the process for contributing to the project.
-
-## License
-
-The license under which the project is released.
 
 ## Authors
 
-- **Name of Contributor 1**
-- **Name of Contributor 2**
-- ... (and so on)
+- **Joz Zhou**
+- **Erchi Zhang**
+- **Xiaoyu Zhang**
 
-## Acknowledgments
 
-Credits to any individual or organization that provided guidance or data for the project.
+
