@@ -7,11 +7,7 @@ Final Project for NYU's Graduate course DSGA 1007
 - [Introduction](#introduction)
 - [Data Description](#data-description)
 - [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
 - [Authors](#authors)
-- [Acknowledgments](#acknowledgments)
 
 ## Introduction
 
@@ -23,7 +19,8 @@ By identifying the features that correlate with higher wealth among billionaires
 
 ### Dataset Source: Kaggle Billionaires Statistics Dataset (2023) [https://www.kaggle.com/datasets/nelgiriyewithana/billionaires-statistics-dataset/data]
 
-### Description: This dataset contains statistics on the world's billionaires, including information about their businesses, industries, and personal details. It provides insights into the wealth distribution, business sectors, and demographics of billionaires worldwide.
+### Description: 
+This dataset contains statistics on the world's billionaires, including information about their businesses, industries, and personal details. It provides insights into the wealth distribution, business sectors, and demographics of billionaires worldwide.
 
 ### Key features:
 - **rank**: The ranking of the billionaire in terms of wealth.
