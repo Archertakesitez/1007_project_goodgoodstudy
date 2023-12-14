@@ -15,6 +15,8 @@ The question of what contributes to a billionaire's wealth is both complex and c
 
 By identifying the features that correlate with higher wealth among billionaires, we hope to shed light on the pathways to extreme financial success. This could include industry participation, geographic location, and other socioeconomic indicators. Understanding these factors can provide valuable insights for aspiring entrepreneurs, investors, and policymakers interested in the dynamics at the pinnacle of economic achievement.
 
+Our solutions are all included in [final_project_goodgoodstudy.ipynb](/final_project_goodgoodstudy.ipynb).
+
 ## Data Description
 
 ### Dataset Source: Kaggle Billionaires Statistics Dataset (2023) [https://www.kaggle.com/datasets/nelgiriyewithana/billionaires-statistics-dataset/data]
