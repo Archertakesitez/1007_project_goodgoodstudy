@@ -82,7 +82,7 @@ To ensure you have all the necessary packages for running the notebooks in this 
 
 ## Authors
 
-- **Joz Zhou**
+- **[Joz Zhou](https://github.com/jozzhou99)**
 - **[Erchi Zhang](https://github.com/Archertakesitez)**
 - **Xiaoyu Zhang**
 
