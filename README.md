@@ -84,7 +84,7 @@ To ensure you have all the necessary packages for running the notebooks in this 
 
 - **[Joz Zhou](https://github.com/jozzhou99)**
 - **[Erchi Zhang](https://github.com/Archertakesitez)**
-- **Xiaoyu Zhang**
+- **[Xiaoyu Zhang](https://github.com/xz4535)**
 
 
 
